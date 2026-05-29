@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="奇幻晶石裝箱圖示">
+  <rect width="512" height="512" rx="96" fill="#121C2B"/>
+  <!-- 網格箱（虛線意象，簡化為實線方框） -->
+  <rect x="120" y="150" width="272" height="220" rx="16" fill="none" stroke="#F1C40F" stroke-width="10" stroke-dasharray="22 16"/>
+  <!-- 晶石（發光綠寶石，2x3 排列呼應因數對） -->
+  <g fill="#2ECC71">
+    <circle cx="188" cy="218" r="30"/>
+    <circle cx="256" cy="218" r="30"/>
+    <circle cx="324" cy="218" r="30"/>
+    <circle cx="188" cy="300" r="30"/>
+    <circle cx="256" cy="300" r="30"/>
+    <circle cx="324" cy="300" r="30"/>
+  </g>
+  <!-- 高光 -->
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="178" cy="208" r="8"/>
+    <circle cx="246" cy="208" r="8"/>
+    <circle cx="314" cy="208" r="8"/>
+    <circle cx="178" cy="290" r="8"/>
+    <circle cx="246" cy="290" r="8"/>
+    <circle cx="314" cy="290" r="8"/>
+  </g>
+</svg>
